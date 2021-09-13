@@ -16,7 +16,7 @@ body {
 .single-product {
   padding: 10px;
   transition: 0.6s;
-  background-color: rgb(208, 240, 240);
+  background-color: rgb(220, 241, 240);
   margin: 5px;
 }
 .single-product:hover {

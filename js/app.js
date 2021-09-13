@@ -22,8 +22,8 @@ const showProducts = (products) => {
       <h4>Price: $ ${product.price}</h4>
       <h5>Rating: ${product.rating.rate}</h5>
       <h5>Rating-Count: ${product.rating.count}</h5>
-      <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-success">add to cart</button>
-      <button id="details-btn" class="btn btn-danger">Details</button></div>
+      <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-primary">add to cart</button>
+      <button id="details-btn" class="btn btn-info">Details</button></div>
       `;
     document.getElementById("all-products").appendChild(div);
   }
